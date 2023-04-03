@@ -2,7 +2,9 @@ import './FollowersCard.css'
 
 const FollowersCard = () => {
   return (
-    <div>FollowersCard</div>
+    <div className='followersCard'>
+        <h3>Who is following you?</h3>
+    </div>
   )
 }
 
