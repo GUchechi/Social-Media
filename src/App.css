@@ -19,14 +19,14 @@ body {
   margin: 0;
 }
 
-.App{
+.App {
   overflow: hidden;
   color: var(--black);
   background-color: #f3f3f3;
   padding: 1rem 1rem;
 }
 
-.blur{
+.blur {
   position: absolute;
   width: 22rem;
   height: 14rem;
@@ -44,5 +44,11 @@ body {
   border-radius: 0.5rem;
   background: var(--buttonBg);
   transition: all 100ms ease-out;
-  padding: 5px;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: var(--orange);
+  background: transparent;
+  border: 2px solid var(--orange);
 }
