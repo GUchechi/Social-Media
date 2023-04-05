@@ -26,15 +26,6 @@ body {
   padding: 1rem 1rem;
 }
 
-.blur {
-  position: absolute;
-  width: 22rem;
-  height: 14rem;
-  border-radius: 50%;
-  background: #a6ddf0;
-  filter: blur(72px);
-}
-
 .button {
   display: flex;
   align-items: center;
@@ -42,7 +33,7 @@ body {
   color: #fff;
   border: none;
   border-radius: 0.5rem;
-  background:var(--blue);
+  background: var(--blue);
   transition: all 100ms ease-out;
 }
 
@@ -53,7 +44,6 @@ body {
   border: 2px solid var(--blue);
 }
 
-
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
