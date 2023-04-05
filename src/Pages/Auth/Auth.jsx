@@ -1,11 +1,11 @@
-import Logo from "../../img/logo.png";
+import { UilShutter } from "@iconscout/react-unicons";
 import "./Auth.css";
 
 const Auth = () => {
   return (
     <div className="auth">
       <div className="a__left">
-        <img src={Logo} alt="" />
+        <UilShutter width="65" height="70" style={{ color: "var(--blue)" }} />
         <div className="app__name">
           <h1>U-Book</h1>
           <h6>Explore Ideas throughout the World</h6>
