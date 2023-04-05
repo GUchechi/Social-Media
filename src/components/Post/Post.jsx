@@ -2,6 +2,7 @@ import Comment from "../../img/comment.png";
 import Share from "../../img/share.png";
 import Heart from "../../img/like.png";
 import NotLike from "../../img/notlike.png";
+import { UilHeart } from "@iconscout/react-unicons";
 import "./Post.css";
 
 const Post = ({ data }) => {
@@ -10,7 +11,12 @@ const Post = ({ data }) => {
       <img src={data.img} alt="" />
 
       <div className="postReact">
-        <img src={data.liked ? Heart : NotLike} alt="likePng" />
+        {data.liked ? (
+          <UilHeart size="35" style={{ marginTop: "-5px", color: 'red' }} />
+        ) : (
+          <img src={NotLike} alt="likePng" />
+        )}
+        {/* <img src={data.liked ? Heart : NotLike} alt="likePng" /> */}
         <img src={Comment} alt="commentsPng" />
         <img src={Share} alt="SharePng" />
       </div>
