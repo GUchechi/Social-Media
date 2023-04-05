@@ -7,7 +7,7 @@ const LogoSearch = () => {
     <div className="logoSearch">
       <UilShutter width="45" height="50" style={{ color: "var(--blue)" }} />
       <div className="search">
-        <input type="text" placeholder="#Explore" />
+        <input type="text" placeholder="Search" />
         <div className="s-icon">
           <UilSearch />
         </div>
