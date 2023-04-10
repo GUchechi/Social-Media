@@ -41,7 +41,7 @@ const InfoCard = () => {
         <span>
           <b> Works at </b>
         </span>
-        <span> Google</span>
+        <span> MicroSoft</span>
       </div>
       <button className="button logout-button">Logout</button>
     </div>
